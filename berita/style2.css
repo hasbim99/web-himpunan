@@ -1,0 +1,52 @@
+root { 
+    display: block;
+}
+h1 {
+	color: #064A7A;
+	font-size: 34px;
+	font-weight: bold;
+	margin:28px 0 8px;
+	padding: 0;
+}
+/*Membuat bentuk dari kotak1 samapai kotak 7*/
+#wrapper{
+    width:1000px;/*Lebar kotak*/
+    height:auto;/*Tinggi kotak*/
+    border:1px solid #cdcdcd; /*Border kotak*/
+    background:#f0f3f6;/*Background/warna kotak*/
+    margin:auto;/*Supaya kotak berada di tengah*/
+}
+#header{
+    width:960px;
+    height:150px;
+    border:1px solid #cdcdcd;
+    background:#639fce;
+    margin:auto;
+    margin-top:5px;/*jarak kotak dengan kotak diatasnya di beri 5px*/
+}
+
+#wrapper_konten{
+    width:960px;
+    height:auto;
+    border:1px solid #cdcdcd;
+    background:#639fce;
+    margin:auto;
+    margin-top:5px;
+}
+
+#right_konten{
+    width:940px;
+    height:auto;
+    border:1px solid #cdcdcd;
+    background:#e6e2e2;
+    float:left;
+    margin-left:10px;
+    margin-top:5px;
+    margin-right:5px; 
+}
+
+#atur{
+	margin-left:15px;
+    margin-right:15px; 
+}
+

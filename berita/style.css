@@ -1,0 +1,134 @@
+root {
+    display: block;
+}
+
+ul#nav { width: 12em; }
+
+ul#nav li {
+  list-style: none;
+  background-color: #039;
+  border-top: solid 1px #039;
+  text-align: left;
+  margin: 0;
+}
+
+ul#nav li a {
+  display: block;
+  text-decoration: none;
+  padding: .25em;
+  border-bottom: solid 1px #39f;
+  border-right: solid 1px #39f;
+}
+
+a:link, a:visited { color: #FA8072; }
+a:hover, a:active { color: #000; }
+
+
+
+
+h1 {
+	color: #064A7A;
+	font-size: 34px;
+	font-weight: bold;
+	margin:28px 0 8px;
+	padding: 0;
+}
+
+input[type=text] {
+    width: 450px;
+	height:30px;
+    display: block;
+    margin-bottom: 5px;
+    border-radius:10px 10px 10px 10px;
+}
+
+#wrapper{
+    width:1000px;
+    height:680px;
+    border:1px solid #cdcdcd; 
+    background:#f0f3f6 no-repeat;
+    margin:auto;
+}
+#header{
+    width:960px;
+    height:100px;
+    border:1px solid #cdcdcd;
+    background:#003366;
+    margin:5px auto auto;
+}
+
+#wrapper_konten{
+    width:960px;
+    height:550px;
+    border:1px solid #cdcdcd;
+    background:#639fce;
+    margin:auto;
+    margin-top:5px;
+}
+#left_konten{
+    width:240px;
+    height:520px;
+    border:1px solid #cdcdcd;
+    background:#e6e2e2;
+    float:left;
+    margin-left:5px;
+    margin-top:5px;
+}
+#right_konten{
+    width:700px;
+    height:520px;
+    border:1px solid #cdcdcd;
+    background:#e6e2e2;
+    float:left;
+    margin-left:5px;
+    margin-top:5px;
+    margin-right:5px; 
+}
+
+#form_top_artikel
+{
+  background:#009999;
+  width:85%;
+  height:40px;
+  margin-top:10px;
+  margin-left:50px;
+  margin-right:50px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+
+#form_content_artikel
+{
+  background:#fff;
+  width:85%;
+  height:450px;
+  margin-left:50px;
+  margin-right:50px;
+  
+}
+
+#form_bottom_artikel
+{
+  background:#DEB887;
+  width:85%;
+  height:40px;
+  margin-left:50px;
+  margin-right:50px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+
+#isi_artikel{
+padding-left:25px;
+padding-top:25px;
+
+}
+
+.produksi{
+     text-align: center;
+}
+
+#judul{
+ padding:10px;
+
+}
