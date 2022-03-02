@@ -1,0 +1,32 @@
+body{
+	font-family: 'roboto';
+	color: #000;
+}
+
+.judul{
+	font-family: "OpenSans-Light";
+	background: #2979af;
+	padding : 10px;
+	text-align: center;
+	font-size: 41px;
+
+}
+
+.judul h1,h2,h3{
+	height: 15px;
+}
+
+a{
+	/*color: #fff;*/
+	padding: 5px;
+	text-decoration: none;	
+}
+
+
+.table{
+	border-collapse: collapse;
+}
+
+table.table th th , table.table tr td{
+	padding: 10px 20px	;
+}

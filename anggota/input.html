@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HME ITENAS - Input</title>
+	<link rel="icon" type="image/png" href="images/icontitle.png">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form method="post" action="proses_simpan.php" enctype="multipart/form-data">
+	<h2><i class="fa fa-user"></i>Input Data Anggota</h2>
+	<br/>
+	<div class="form-group">
+		<input type="text" class="input-mode"  name="nrp" placeholder="NRP...">
+	</div>
+	<div class="form-group">
+	<input type="text" class="input-mode"  name="nama" placeholder="Nama...">
+	</div>
+	<div class="form-group form-cek">
+		<input type="radio" name="jenis_kelamin" value="pria" id="cek-pria" class="cek"><label for="cek-pria">Pria</label>
+		<input type="radio" name="jenis_kelamin" value="wanita" id="cek-wanita" class="cek"><label for="cek-wanita">Wanita</label>
+	</div>
+	<div class="form-group">
+	<input type="text" class="input-mode" name="telp" placeholder="Phone...">	
+	</div>
+	<div class="form-group">
+	<input type="text" class="input-mode" name="alamat" placeholder="Alamat...">	
+	</div>
+	<br/>
+	<div class="form-group">
+	<input type="file" name="foto"></td>
+	</div>
+	<br/>
+	<div class="form-group">
+		<button class="btn btn-submit">Simpan &nbsp; <i class="fa fa-hand-o-right" aria-hidden="true"></i></button>
+	</div>
+	<br>
+	<center><a href="index.php">Batal</a></center>
+	<br/>
+	</form>
+
+	<!--Design By AgusTutorial-->
+</body>
+</html>
